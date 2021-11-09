@@ -16,3 +16,6 @@ point it to a local url.
 ## Usage
 After change urls, connections and have a database ready with migrations, you will be able to run the applications. To Start using it you will need to create an account
 with email and password. For now there's no service for sending emails, but you will get an link to confirm the email.
+
+## VS Configuration
+For visual studio configuration please set as startup projects both projects inside the solution. One is the API and the other one is the front-end app.
