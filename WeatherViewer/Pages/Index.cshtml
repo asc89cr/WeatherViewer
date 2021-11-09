@@ -1,0 +1,30 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Weather Forecast for period 3.</p>
+</div>
+
+<table class="table table-info">
+    <tr>
+        <th>Temperature</th>
+        <th>Temperature Unit</th>
+        <th>Windspeed</th>
+        <th>Wind Direction</th>
+    </tr>
+    @{ 
+        foreach (var item in Model.GetForecast())
+        {
+        <tr>
+            <td>@item.temperature</td>
+            <td>@item.temperatureUnit</td>
+            <td>@item.windSpeed</td>
+            <td>@item.windDirection</td>
+        </tr>
+        }
+    }
+</table>

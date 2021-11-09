@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherViewer", "WeatherViewer\WeatherViewer.csproj", "{73EED03E-D49D-4B72-B079-EEDF2B7E3181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherViewerAPI", "WeatherViewerAPI\WeatherViewerAPI.csproj", "{46741948-7E34-43C6-B910-E8FA5D956B8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73EED03E-D49D-4B72-B079-EEDF2B7E3181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73EED03E-D49D-4B72-B079-EEDF2B7E3181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73EED03E-D49D-4B72-B079-EEDF2B7E3181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73EED03E-D49D-4B72-B079-EEDF2B7E3181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46741948-7E34-43C6-B910-E8FA5D956B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46741948-7E34-43C6-B910-E8FA5D956B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46741948-7E34-43C6-B910-E8FA5D956B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46741948-7E34-43C6-B910-E8FA5D956B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {964F9322-50E3-48CA-A01E-120CB4DA8578}
+	EndGlobalSection
+EndGlobal
